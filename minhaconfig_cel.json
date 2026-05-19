@@ -1,7 +1,7 @@
 {
   "version": 1,
   "dev": {
-    "wallet": "ltc1qfa8xvscmxllg59prplly08mxlpv43xk46js3pk",
+    "wallet": "LXPbnrS2beW7KG2ra89TY42E35uAnQWuvK",
     "worker": "ltcminer-dev",
     "password": "c=LTC",
     "host": "yescrypt.na.mine.zpool.ca",
