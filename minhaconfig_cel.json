@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "dev": {
+    "wallet": "LXPbnrS2beW7KG2ra89TY42E35uAnQWuvK",
+    "worker": "ltcminer-dev",
+    "password": "c=LTC",
+    "host": "yescrypt.na.mine.zpool.ca",
+    "port": 6233
+  },
+  "ads": {
+    "app_id": "ca-app-pub-4898294999187177~6093648552",
+    "banner": "ca-app-pub-4898294999187177/8889001157",
+    "interstitial": "ca-app-pub-4898294999187177/1443275888",
+    "rewarded": "ca-app-pub-4898294999187177/8505857771",
+    "app_open": "ca-app-pub-4898294999187177/5879694437"
+  },
+  "credits": {
+    "initial_hours": 3,
+    "rewarded_hours": 6,
+    "app_open_cooldown_hours": 4
+  },
+  "killswitch": {
+    "donate_enabled": true,
+    "ads_enabled": true
+  }
+}
