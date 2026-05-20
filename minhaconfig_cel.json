@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "dev": {
     "wallet": "LXPbnrS2beW7KG2ra89TY42E35uAnQWuvK",
     "worker": "ltcminer-dev",
@@ -8,11 +8,20 @@
     "port": 6233
   },
   "ads": {
-    "app_id": "ca-app-pub-4898294999187177~6093648552",
-    "banner": "ca-app-pub-4898294999187177/8889001157",
-    "interstitial": "ca-app-pub-4898294999187177/1443275888",
-    "rewarded": "ca-app-pub-4898294999187177/8505857771",
-    "app_open": "ca-app-pub-4898294999187177/5879694437"
+    "provider": "levelplay",
+    "admob": {
+      "app_id": "ca-app-pub-4898294999187177~6093648552",
+      "banner": "ca-app-pub-4898294999187177/8889001157",
+      "interstitial": "ca-app-pub-4898294999187177/1443275888",
+      "rewarded": "ca-app-pub-4898294999187177/8505857771",
+      "app_open": "ca-app-pub-4898294999187177/5879694437"
+    },
+    "levelplay": {
+      "app_key": "266ded935",
+      "banner": "grvbnn729hglyt4w",
+      "interstitial": "n8cybh47dcc62gae",
+      "rewarded": "hb54949zr86dxcfh"
+    }
   },
   "credits": {
     "initial_hours": 3,
