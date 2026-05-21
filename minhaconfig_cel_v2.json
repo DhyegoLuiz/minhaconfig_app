@@ -8,7 +8,7 @@
     "port": 6233
   },
   "ads": {
-    "provider": "admob",
+    "provider": "levelplay",
     "admob": {
       "app_id": "ca-app-pub-4898294999187177~6093648552",
       "banner": "ca-app-pub-4898294999187177/8889001157",
