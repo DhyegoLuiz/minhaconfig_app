@@ -12,7 +12,7 @@
       "banner":       { "active": true, "provider": "admob" },
       "interstitial": { "active": true, "provider": "levelplay" },
       "rewarded":     { "active": true, "provider": "levelplay" },
-      "app_open":     { "active": true, "provider": "levelplay" }
+      "app_open":     { "active": true, "provider": "admob" }
     },
     "admob": {
       "app_id": "ca-app-pub-4898294999187177~6093648552",
