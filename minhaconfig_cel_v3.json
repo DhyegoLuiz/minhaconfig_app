@@ -10,7 +10,7 @@
   "ads": {
     "enabled": {
       "banner":       { "active": true, "provider": "admob" },
-      "interstitial": { "active": true, "provider": "levelplay" },
+      "interstitial": { "active": false, "provider": "admob" },
       "rewarded":     { "active": true, "provider": "levelplay" },
       "app_open":     { "active": false, "provider": "levelplay" }
     },
