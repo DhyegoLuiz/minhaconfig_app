@@ -30,7 +30,7 @@
     }
   },
   "credits": {
-    "initial_minutes": 2,
+    "initial_minutes": 360,
     "rewarded_hours": 12,
     "app_open_cooldown_hours": 4
   },
