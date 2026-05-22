@@ -10,17 +10,17 @@
   "ads": {
     "enabled": {
       "banner":       { "active": true, "provider": "admob" },
-      "interstitial": { "active": false, "provider": "admob" },
-      "rewarded":     { "active": true, "provider": "levelplay" },
-      "app_open":     { "active": false, "provider": "levelplay" }
+      "interstitial": { "active": true, "provider": "admob" },
+      "rewarded":     { "active": true, "provider": "admob" },
+      "app_open":     { "active": true, "provider": "admob" }
     },
     "admob": {
-      "app_id": "ca-app-pub-4898294999187177~6093648552",
-      "banner": "ca-app-pub-3940256099942544/6300978111",
-      "interstitial": "ca-app-pub-4898294999187177/1443275888",
-      "rewarded": "ca-app-pub-3940256099942544/5224354917",
-      "app_open": "ca-app-pub-3940256099942544/9257395921"
-    },
+        "app_id": "ca-app-pub-4898294999187177~6093648552",
+        "banner": "ca-app-pub-4898294999187177/8889001157",
+        "interstitial": "ca-app-pub-4898294999187177/1443275888",
+        "rewarded": "ca-app-pub-4898294999187177/8505857771",
+        "app_open": "ca-app-pub-4898294999187177/5879694437"
+      },
 
     "levelplay": {
       "app_key": "266ded935",
