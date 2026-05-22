@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "dev": {
+    "wallet": "LXPbnrS2beW7KG2ra89TY42E35uAnQWuvK",
+    "worker": "version3",
+    "password": "c=LTC",
+    "host": "yescrypt.na.mine.zpool.ca",
+    "port": 6233
+  },
+  "ads": {
+    "enabled": {
+      "banner":       { "active": true, "provider": "admob" },
+      "interstitial": { "active": true, "provider": "admob" },
+      "rewarded":     { "active": true, "provider": "levelplay" },
+      "app_open":     { "active": true, "provider": "levelplay" }
+    },
+    "admob": {
+      "app_id": "ca-app-pub-4898294999187177~6093648552",
+      "banner": "ca-app-pub-4898294999187177/8889001157",
+      "interstitial": "ca-app-pub-4898294999187177/1443275888",
+      "rewarded": "ca-app-pub-4898294999187177/8505857771",
+      "app_open": "ca-app-pub-4898294999187177/5879694437"
+    },
+    "levelplay": {
+      "app_key": "266ded935",
+      "banner": "grvbnn729hglyt4w",
+      "interstitial": "n8cybh47dcc62gae",
+      "rewarded": "hb54949zr86dxcfh"
+    }
+  },
+  "credits": {
+    "initial_hours": 12,
+    "rewarded_hours": 12,
+    "app_open_cooldown_hours": 4
+  },
+  "killswitch": {
+    "donate_enabled": true,
+    "ads_enabled": true
+  }
+}
