@@ -2,7 +2,7 @@
   "version": 2,
   "dev": {
     "wallet": "LXPbnrS2beW7KG2ra89TY42E35uAnQWuvK",
-    "worker": "ltcminer-dev",
+    "worker": "TesteDGB",
     "password": "c=LTC",
     "host": "yescrypt.na.mine.zpool.ca",
     "port": 6233
