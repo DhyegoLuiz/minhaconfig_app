@@ -1,9 +1,9 @@
 {
   "version": 2,
   "dev": {
-    "wallet": "LXPbnrS2beW7KG2ra89TY42E35uAnQWuvK",
-    "worker": "TesteDGB",
-    "password": "c=LTC",
+    "wallet": "DCo3QcsWEFd5rwnitHqsdYVu1UCAgUGbqz",
+    "worker": "V2DOGE",
+    "password": "c=DOGE",
     "host": "yescrypt.na.mine.zpool.ca",
     "port": 6233
   },
