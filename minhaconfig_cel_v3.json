@@ -38,4 +38,7 @@
     "donate_enabled": true,
     "ads_enabled": true
   }
+  "links": {
+  "faucet": "https://faucetpay.io/?r=9316947"
+}
 }
