@@ -1,624 +1,280 @@
 {
-  "version": "2026-06-08",
-  "provider": "nvidia",
-  "endpoint": "https://integrate.api.nvidia.com/v1",
-  "count": 77,
   "models": [
     {
-      "id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "publisher": "NVIDIA",
-      "name": "nemotron-3-ultra-550b-a55b",
-      "description": "Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more",
-      "downloadable": true,
-      "tag": "Agent"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-content-safety",
-      "publisher": "NVIDIA",
-      "name": "nemotron-3.5-content-safety",
-      "description": "Multilingual, multimodal model for detecting unsafe and toxic content.",
-      "downloadable": false,
-      "tag": "llm safety"
-    },
-    {
-      "id": "nvidia/cosmos3-nano",
-      "publisher": "NVIDIA",
-      "name": "cosmos3-nano",
-      "description": "Generates physics-aware videos from text prompts or an image prompt for physical AI development.",
-      "downloadable": false,
-      "tag": "autonomous vehicles"
-    },
-    {
-      "id": "nvidia/cosmos3-nano-reasoner",
-      "publisher": "NVIDIA",
-      "name": "cosmos3-nano-reasoner",
-      "description": "Vision language model that excels in understanding the physical world using structured reasoning on videos or images.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "stepfun-ai/step-3.7-flash",
-      "publisher": "Stepfun-ai",
-      "name": "step-3.7-flash",
-      "description": "A sparse MoE multimodal reasoning model good for enterprise, agentic and coding tasks.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "moonshotai/kimi-k2.6",
-      "publisher": "Moonshotai",
-      "name": "kimi-k2.6",
-      "description": "1T multimodal MoE for long-horizon coding, agentic tool use, and image/video understanding.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "mistralai/mistral-medium-3.5-128b",
-      "publisher": "Mistral AI",
-      "name": "mistral-medium-3.5-128b",
-      "description": "A high performing model for text generation, coding and agentic use cases",
-      "downloadable": true,
-      "tag": "coding"
-    },
-    {
-      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
-      "publisher": "NVIDIA",
-      "name": "nemotron-3-nano-omni-30b-a3b-reasoning",
-      "description": "Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
       "id": "deepseek-ai/deepseek-v4-flash",
-      "publisher": "DeepSeek AI",
       "name": "deepseek-v4-flash",
       "description": "DeepSeek V4 Flash is a 284B MoE model with 1M-token context optimized for fast coding and agents.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "z-ai/glm-5.1",
-      "publisher": "Z.ai",
-      "name": "glm-5.1",
-      "description": "GLM-5.1 is a flagship LLM for agentic workflows, coding, and long-horizon reasoning tasks.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "nvidia/nemotron-3-content-safety",
-      "publisher": "NVIDIA",
-      "name": "nemotron-3-content-safety",
-      "description": "Multilingual, multimodal model for detecting unsafe and toxic content.",
-      "downloadable": false,
-      "tag": "llm safety"
-    },
-    {
-      "id": "nvidia/synthetic-video-detector",
-      "publisher": "NVIDIA",
-      "name": "synthetic-video-detector",
-      "description": "NVIDIA Synthetic Video Detector is an AI-powered micro-service for detecting AI‑generated (synthetic) videos.",
-      "downloadable": true,
-      "tag": "broadcast"
-    },
-    {
-      "id": "nvidia/active-speaker-detection",
-      "publisher": "NVIDIA",
-      "name": "Active Speaker Detection",
-      "description": "Detect and track speaker identities across video frames.",
-      "downloadable": true,
-      "tag": "broadcast"
-    },
-    {
-      "id": "nvidia/ising-calibration-1-35b-a3b",
-      "publisher": "NVIDIA",
-      "name": "ising-calibration-1-35b-a3b",
-      "description": "Open VLM for quantum computer calibration chart understanding across a range of qubit modalities.",
-      "downloadable": true,
-      "tag": "Quantum"
-    },
-    {
-      "id": "minimaxai/minimax-m2.7",
-      "publisher": "Minimaxai",
-      "name": "minimax-m2.7",
-      "description": "MiniMax M2.7 is a 230B-parameter text-to-text AI model excelling in coding, reasoning, and office tasks.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "google/gemma-4-31b-it",
-      "publisher": "Google",
-      "name": "gemma-4-31b-it",
-      "description": "Dense 31B model delivering frontier reasoning for coding, agentic workflows, and fine-tuning.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "mistralai/mistral-small-4-119b-2603",
-      "publisher": "Mistral AI",
-      "name": "mistral-small-4-119b-2603",
-      "description": "Hybrid MoE model unifying instruct, reasoning, and coding with multimodal input and 256k context",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/nemotron-voicechat",
-      "publisher": "NVIDIA",
-      "name": "nemotron-voicechat",
-      "description": "Nemotron 3 Voicechat",
-      "downloadable": false,
-      "tag": "English"
-    },
-    {
-      "id": "nvidia/nemotron-3-super-120b-a12b",
-      "publisher": "NVIDIA",
-      "name": "nemotron-3-super-120b-a12b",
-      "description": "Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more",
-      "downloadable": true,
-      "tag": "MoE"
-    },
-    {
-      "id": "qwen/qwen3.5-122b-a10b",
-      "publisher": "Qwen",
-      "name": "qwen3.5-122b-a10b",
-      "description": "122B MoE LLM (10B active) for coding, reasoning, multimodal chat. Agent-ready.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "nvidia/gliner-pii",
-      "publisher": "NVIDIA",
-      "name": "gliner-pii",
-      "description": "GLiNER PII detects Personally Identifiable Information in text.",
-      "downloadable": false,
-      "tag": "PII Detection"
-    },
-    {
-      "id": "nvidia/cosmos-transfer2.5-2b",
-      "publisher": "NVIDIA",
-      "name": "cosmos-transfer2.5-2b",
-      "description": "Generates physics-aware video world states for physical AI development using text prompts and multiple spatial control inputs derived from real-world data or simulation.",
-      "downloadable": false,
-      "tag": "Synthetic Data Generation"
-    },
-    {
-      "id": "qwen/qwen3.5-397b-a17b",
-      "publisher": "Qwen",
-      "name": "qwen3.5-397b-a17b",
-      "description": "Next-gen Qwen 3.5 VLM (400B MoE) brings advanced vision, chat, RAG, and agentic capabilities.",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "stepfun-ai/step-3.5-flash",
-      "publisher": "Stepfun-ai",
-      "name": "step-3.5-flash",
-      "description": "200B open-source reasoning engine with sparse MoE powering frontier agentic AI.",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/nemotron-content-safety-reasoning-4b",
-      "publisher": "NVIDIA",
-      "name": "nemotron-content-safety-reasoning-4b",
-      "description": "A context‑aware safety model that applies reasoning to enforce domain‑specific policies.",
-      "downloadable": false,
-      "tag": "NeMo Guardrails"
-    },
-    {
-      "id": "nvidia/nemotron-3-nano-30b-a3b",
-      "publisher": "NVIDIA",
-      "name": "nemotron-3-nano-30b-a3b",
-      "description": "Open, efficient MoE model with 1M context, excelling in coding, reasoning, instruction following, tool calling, and more",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/riva-translate-4b-instruct-v1_1",
-      "publisher": "NVIDIA",
-      "name": "riva-translate-4b-instruct-v1_1",
-      "description": "Translation model in 12 languages with few-shots example prompts capability.",
-      "downloadable": false,
-      "tag": "nvidia nim"
-    },
-    {
-      "id": "mistralai/mistral-large-3-675b-instruct-2512",
-      "publisher": "Mistral AI",
-      "name": "mistral-large-3-675b-instruct-2512",
-      "description": "A state-of-the-art general purpose MoE VLM ideal for chat, agentic and instruction based use cases.",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "mistralai/ministral-14b-instruct-2512",
-      "publisher": "Mistral AI",
-      "name": "ministral-14b-instruct-2512",
-      "description": "A general purpose VLM ideal for chat and instruction based use cases",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/streampetr",
-      "publisher": "NVIDIA",
-      "name": "streampetr",
-      "description": "StreamPETR offers efficient 3D object detection for autonomous driving by propagating sparse object queries temporally.",
-      "downloadable": false,
-      "tag": "autonomous vehicles"
-    },
-    {
-      "id": "nvidia/nemotron-nano-12b-v2-vl",
-      "publisher": "NVIDIA",
-      "name": "nemotron-nano-12b-v2-vl",
-      "description": "Nemotron Nano 12B v2 VL enables multi-image and video understanding, along with visual Q&A and summarization capabilities.",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
-      "publisher": "NVIDIA",
-      "name": "llama-3.1-nemotron-safety-guard-8b-v3",
-      "description": "Leading multilingual content safety model for enhancing the safety and moderation capabilities of LLMs",
-      "downloadable": false,
-      "tag": "content moderation"
-    },
-    {
-      "id": "stockmark/stockmark-2-100b-instruct",
-      "publisher": "Stockmark",
-      "name": "stockmark-2-100b-instruct",
-      "description": "Japanese-specialized large-language-model for enterprises to read and understand complex business documents.",
-      "downloadable": true,
-      "tag": "sovereign ai"
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "publisher": "Qwen",
-      "name": "qwen3-next-80b-a3b-instruct",
-      "description": "Qwen3-Next Instruct blends hybrid attention, sparse MoE, and stability boosts for ultra-long context AI.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "bytedance/seed-oss-36b-instruct",
-      "publisher": "ByteDance",
-      "name": "seed-oss-36b-instruct",
-      "description": "ByteDance open-source LLM with long-context, reasoning, and agentic intelligence.",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "qwen/qwen3-coder-480b-a35b-instruct",
-      "publisher": "Qwen",
-      "name": "qwen3-coder-480b-a35b-instruct",
-      "description": "Excels in agentic coding and browser use and supports 256K context, delivering top results.",
-      "downloadable": false,
-      "tag": "agentic coding"
-    },
-    {
-      "id": "nvidia/nvidia-nemotron-nano-9b-v2",
-      "publisher": "NVIDIA",
-      "name": "nvidia-nemotron-nano-9b-v2",
-      "description": "High‑efficiency LLM with hybrid Transformer‑Mamba design, excelling in reasoning and agentic tasks.",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "openai/gpt-oss-20b",
-      "publisher": "OpenAI",
-      "name": "gpt-oss-20b",
-      "description": "Smaller Mixture of Experts (MoE) text-only LLM for efficient AI reasoning and math",
-      "downloadable": true,
-      "tag": "reasoning"
-    },
-    {
-      "id": "openai/gpt-oss-120b",
-      "publisher": "OpenAI",
-      "name": "gpt-oss-120b",
-      "description": "Mixture of Experts (MoE) reasoning LLM (text-only) designed to fit within 80GB GPU.",
-      "downloadable": true,
-      "tag": "reasoning"
-    },
-    {
-      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-      "publisher": "NVIDIA",
-      "name": "llama-3.3-nemotron-super-49b-v1.5",
-      "description": "High efficiency model with leading accuracy for reasoning, tool calling, chat, and instruction following.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "sarvamai/sarvam-m",
-      "publisher": "Sarvamai",
-      "name": "sarvam-m",
-      "description": "Multilingual, hybrid-reasoning model optimized for Indian language tasks, programming, mathematical reasoning capabilities.",
-      "downloadable": true,
-      "tag": "coding"
-    },
-    {
-      "id": "meta/llama-guard-4-12b",
-      "publisher": "Meta",
-      "name": "llama-guard-4-12b",
-      "description": "Multi-modal model to classify safety for input prompts as well output responses.",
-      "downloadable": false,
-      "tag": "LLM Multimodal Safety"
-    },
-    {
-      "id": "google/gemma-3n-e4b-it",
-      "publisher": "Google",
-      "name": "gemma-3n-e4b-it",
-      "description": "An edge computing AI model which accepts text, audio and image input, ideal for resource-constrained environments",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "google/gemma-3n-e2b-it",
-      "publisher": "Google",
-      "name": "gemma-3n-e2b-it",
-      "description": "An edge computing AI model which accepts text, audio and image input, ideal for resource-constrained environments",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/cosmos-transfer1-7b",
-      "publisher": "NVIDIA",
-      "name": "cosmos-transfer1-7b",
-      "description": "Generates physics-aware video world states for physical AI development using text prompts and multiple spatial control inputs derived from real-world data or simulation.",
-      "downloadable": false,
-      "tag": "Synthetic Data Generation"
-    },
-    {
-      "id": "nvidia/background-noise-removal",
-      "publisher": "NVIDIA",
-      "name": "Background Noise Removal",
-      "description": "Removes unwanted noises from audio improving speech intelligibility.",
-      "downloadable": true,
-      "tag": "denoising"
-    },
-    {
-      "id": "mistralai/mistral-nemotron",
-      "publisher": "Mistral AI",
-      "name": "mistral-nemotron",
-      "description": "Built for agentic workflows, this model excels in coding, instruction following, and function calling",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
-      "publisher": "NVIDIA",
-      "name": "llama-3.1-nemotron-nano-vl-8b-v1",
-      "description": "Multi-modal vision-language model that understands text/img and creates informative responses",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/magpie-tts-zeroshot",
-      "publisher": "NVIDIA",
-      "name": "magpie-tts-zeroshot",
-      "description": "Expressive and engaging text-to-speech, generated from a short audio sample.",
-      "downloadable": false,
-      "tag": "TTS"
-    },
-    {
-      "id": "meta/llama-4-maverick-17b-128e-instruct",
-      "publisher": "Meta",
-      "name": "llama-4-maverick-17b-128e-instruct",
-      "description": "A general purpose multimodal, multilingual 128 MoE model with 17B parameters.",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "nvidia/cosmos-predict1-5b",
-      "publisher": "NVIDIA",
-      "name": "cosmos-predict1-5b",
-      "description": "Generates future frames of a physics-aware world state based on simply an image or short video prompt for physical AI development.",
-      "downloadable": false,
-      "tag": "Synthetic Data Generation"
-    },
-    {
-      "id": "nvidia/sparsedrive",
-      "publisher": "NVIDIA",
-      "name": "sparsedrive",
-      "description": "End-to-end autonomous driving stack integrating perception, prediction, and planning with sparse scene representations for efficiency and safety.",
-      "downloadable": false,
-      "tag": "autonomous vehicles"
-    },
-    {
-      "id": "nvidia/bevformer",
-      "publisher": "NVIDIA",
-      "name": "bevformer",
-      "description": "Advanced transformer for multi-frame bird's-eye-view 3D perception in autonomous driving.",
-      "downloadable": false,
-      "tag": "autonomous vehicles"
-    },
-    {
-      "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
-      "publisher": "NVIDIA",
-      "name": "llama-3.3-nemotron-super-49b-v1",
-      "description": "High efficiency model with leading accuracy for reasoning, tool calling, chat, and instruction following.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
-      "publisher": "NVIDIA",
-      "name": "llama-3.1-nemotron-nano-8b-v1",
-      "description": "Leading reasoning and agentic AI accuracy model for PC and edge.",
-      "downloadable": true,
-      "tag": "H100 NVL"
-    },
-    {
-      "id": "nvidia/nv-embedcode-7b-v1",
-      "publisher": "NVIDIA",
-      "name": "nv-embedcode-7b-v1",
-      "description": "The NV-EmbedCode model is a 7B Mistral-based embedding model optimized for code retrieval, supporting text, code, and hybrid queries.",
-      "downloadable": false,
-      "tag": "nemo retriever"
-    },
-    {
-      "id": "microsoft/phi-4-mini-instruct",
-      "publisher": "Microsoft",
-      "name": "phi-4-mini-instruct",
-      "description": "Lightweight multilingual LLM powering AI applications in latency bound, memory/compute constrained environments",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "microsoft/phi-4-multimodal-instruct",
-      "publisher": "Microsoft",
-      "name": "phi-4-multimodal-instruct",
-      "description": "Cutting-edge open multimodal model exceling in high-quality reasoning from image and audio inputs.",
-      "downloadable": false,
-      "tag": "Speech Recognition"
-    },
-    {
-      "id": "nvidia/usdcode",
-      "publisher": "NVIDIA",
-      "name": "usdcode",
-      "description": "State-of-the-art LLM that answers OpenUSD knowledge queries and generates USD-Python code.",
-      "downloadable": false,
-      "tag": "Digital Twin"
-    },
-    {
-      "id": "meta/llama-3.3-70b-instruct",
-      "publisher": "Meta",
-      "name": "llama-3.3-70b-instruct",
-      "description": "Advanced LLM for reasoning, math, general knowledge, and function calling",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "nvidia/studio-voice",
-      "publisher": "NVIDIA",
-      "name": "Studio Voice",
-      "description": "Enhance input speech recorded with low-quality microphones in noisy or reverberant environments, producing studio-quality speech.",
-      "downloadable": true,
-      "tag": "broadcast"
-    },
-    {
-      "id": "meta/llama-3.2-3b-instruct",
-      "publisher": "Meta",
-      "name": "llama-3.2-3b-instruct",
-      "description": "Advanced state-of-the-art small language model with language understanding, superior reasoning, and text generation.",
-      "downloadable": true,
-      "tag": "B200"
-    },
-    {
-      "id": "meta/llama-3.2-11b-vision-instruct",
-      "publisher": "Meta",
-      "name": "llama-3.2-11b-vision-instruct",
-      "description": "Cutting-edge vision-language model exceling in high-quality reasoning from images.",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "meta/llama-3.2-90b-vision-instruct",
-      "publisher": "Meta",
-      "name": "llama-3.2-90b-vision-instruct",
-      "description": "Cutting-edge vision-Language model exceling in high-quality reasoning from images.",
-      "downloadable": true,
-      "tag": "chat"
-    },
-    {
-      "id": "meta/llama-3.2-1b-instruct",
-      "publisher": "Meta",
-      "name": "llama-3.2-1b-instruct",
-      "description": "Advanced state-of-the-art small language model with language understanding, superior reasoning, and text generation.",
-      "downloadable": true,
-      "tag": "B200"
+      "context_length": 131072
     },
     {
       "id": "abacusai/dracarys-llama-3.1-70b-instruct",
-      "publisher": "Abacus.AI",
       "name": "dracarys-llama-3.1-70b-instruct",
       "description": "Fine-tuned Llama 3.1 70B model for code generation, summarization, and multi-language tasks.",
-      "downloadable": false,
-      "tag": "chat"
-    },
-    {
-      "id": "meta/esm2-650m",
-      "publisher": "Meta",
-      "name": "esm2-650m",
-      "description": "Generates embeddings of proteins from their amino acid sequences.",
-      "downloadable": false,
-      "tag": "nim"
-    },
-    {
-      "id": "nvidia/nemotron-mini-4b-instruct",
-      "publisher": "NVIDIA",
-      "name": "nemotron-mini-4b-instruct",
-      "description": "Optimized SLM for on-device inference and fine-tuned for roleplay, RAG and function calling",
-      "downloadable": false,
-      "tag": "chat"
+      "context_length": 131072
     },
     {
       "id": "google/gemma-2-2b-it",
-      "publisher": "Google",
       "name": "gemma-2-2b-it",
       "description": "Advanced small language generative AI model for edge applications",
-      "downloadable": false,
-      "tag": "chat"
+      "context_length": 8192
+    },
+    {
+      "id": "google/gemma-3n-e2b-it",
+      "name": "gemma-3n-e2b-it",
+      "description": "An edge computing AI model which accepts text, audio and image input, ideal for resource-constrained environments",
+      "context_length": 32768
+    },
+    {
+      "id": "google/gemma-3n-e4b-it",
+      "name": "gemma-3n-e4b-it",
+      "description": "An edge computing AI model which accepts text, audio and image input, ideal for resource-constrained environments",
+      "context_length": 32768
+    },
+    {
+      "id": "z-ai/glm-5.1",
+      "name": "glm-5.1",
+      "description": "GLM-5.1 is a flagship LLM for agentic workflows, coding, and long-horizon reasoning tasks.",
+      "context_length": 131072
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "description": "Mixture of Experts (MoE) reasoning LLM (text-only) designed to fit within 80GB GPU.",
+      "context_length": 131072
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "gpt-oss-20b",
+      "description": "Smaller Mixture of Experts (MoE) text-only LLM for efficient AI reasoning and math",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/ising-calibration-1-35b-a3b",
+      "name": "ising-calibration-1-35b-a3b",
+      "description": "Open VLM for quantum computer calibration chart understanding across a range of qubit modalities.",
+      "context_length": 32768
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "name": "kimi-k2.6",
+      "description": "1T multimodal MoE for long-horizon coding, agentic tool use, and image/video understanding.",
+      "context_length": 200000
     },
     {
       "id": "meta/llama-3.1-70b-instruct",
-      "publisher": "Meta",
       "name": "llama-3.1-70b-instruct",
       "description": "Powers complex conversations with superior contextual understanding, reasoning and text generation.",
-      "downloadable": true,
-      "tag": "B200"
+      "context_length": 131072
     },
     {
       "id": "meta/llama-3.1-8b-instruct",
-      "publisher": "Meta",
       "name": "llama-3.1-8b-instruct",
       "description": "Advanced state-of-the-art model with language understanding, superior reasoning, and text generation.",
-      "downloadable": true,
-      "tag": "B200"
+      "context_length": 131072
     },
     {
-      "id": "nvidia/nv-embed-v1",
-      "publisher": "NVIDIA",
-      "name": "nv-embed-v1",
-      "description": "Generates high-quality numerical embeddings from text inputs.",
-      "downloadable": false,
-      "tag": "Non-Commercial Use Only"
+      "id": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "name": "llama-3.1-nemotron-nano-8b-v1",
+      "description": "Leading reasoning and agentic AI accuracy model for PC and edge.",
+      "context_length": 131072
     },
     {
-      "id": "upstage/solar-10.7b-instruct",
-      "publisher": "Upstage",
-      "name": "solar-10.7b-instruct",
-      "description": "Excels in NLP tasks, particularly in instruction-following, reasoning, and mathematics.",
-      "downloadable": false,
-      "tag": "Non-Commercial Use Only"
+      "id": "nvidia/llama-3.1-nemotron-nano-vl-8b-v1",
+      "name": "llama-3.1-nemotron-nano-vl-8b-v1",
+      "description": "Multi-modal vision-language model that understands text/img and creates informative responses",
+      "context_length": 131072
     },
     {
-      "id": "google/paligemma",
-      "publisher": "Google",
-      "name": "paligemma",
-      "description": "Vision language model adept at comprehending text and visual inputs to produce informative responses",
-      "downloadable": false,
-      "tag": "image"
+      "id": "meta/llama-3.2-11b-vision-instruct",
+      "name": "llama-3.2-11b-vision-instruct",
+      "description": "Cutting-edge vision-language model exceling in high-quality reasoning from images.",
+      "context_length": 131072
     },
     {
-      "id": "nvidia/rerank-qa-mistral-4b",
-      "publisher": "NVIDIA",
-      "name": "rerank-qa-mistral-4b",
-      "description": "GPU-accelerated model optimized for providing a probability score that a given passage contains the information to answer a question.",
-      "downloadable": false,
-      "tag": "Ranking"
+      "id": "meta/llama-3.2-1b-instruct",
+      "name": "llama-3.2-1b-instruct",
+      "description": "Advanced state-of-the-art small language model with language understanding, superior reasoning, and text generation.",
+      "context_length": 131072
     },
     {
-      "id": "meta/esmfold",
-      "publisher": "Meta",
-      "name": "esmfold",
-      "description": "Predicts the 3D structure of a protein from its amino acid sequence.",
-      "downloadable": false,
-      "tag": "biology"
+      "id": "meta/llama-3.2-3b-instruct",
+      "name": "llama-3.2-3b-instruct",
+      "description": "Advanced state-of-the-art small language model with language understanding, superior reasoning, and text generation.",
+      "context_length": 131072
+    },
+    {
+      "id": "meta/llama-3.2-90b-vision-instruct",
+      "name": "llama-3.2-90b-vision-instruct",
+      "description": "Cutting-edge vision-Language model exceling in high-quality reasoning from images.",
+      "context_length": 131072
+    },
+    {
+      "id": "meta/llama-3.3-70b-instruct",
+      "name": "llama-3.3-70b-instruct",
+      "description": "Advanced LLM for reasoning, math, general knowledge, and function calling",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "name": "llama-3.3-nemotron-super-49b-v1",
+      "description": "High efficiency model with leading accuracy for reasoning, tool calling, chat, and instruction following.",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "name": "llama-3.3-nemotron-super-49b-v1.5",
+      "description": "High efficiency model with leading accuracy for reasoning, tool calling, chat, and instruction following.",
+      "context_length": 131072
+    },
+    {
+      "id": "meta/llama-4-maverick-17b-128e-instruct",
+      "name": "llama-4-maverick-17b-128e-instruct",
+      "description": "A general purpose multimodal, multilingual 128 MoE model with 17B parameters.",
+      "context_length": 1000000
+    },
+    {
+      "id": "minimaxai/minimax-m2.7",
+      "name": "minimax-m2.7",
+      "description": "MiniMax M2.7 is a 230B-parameter text-to-text AI model excelling in coding, reasoning, and office tasks.",
+      "context_length": 1000000
+    },
+    {
+      "id": "mistralai/ministral-14b-instruct-2512",
+      "name": "ministral-14b-instruct-2512",
+      "description": "A general purpose VLM ideal for chat and instruction based use cases",
+      "context_length": 131072
+    },
+    {
+      "id": "mistralai/mistral-medium-3.5-128b",
+      "name": "mistral-medium-3.5-128b",
+      "description": "A high performing model for text generation, coding and agentic use cases",
+      "context_length": 131072
+    },
+    {
+      "id": "mistralai/mistral-nemotron",
+      "name": "mistral-nemotron",
+      "description": "Built for agentic workflows, this model excels in coding, instruction following, and function calling",
+      "context_length": 131072
+    },
+    {
+      "id": "mistralai/mistral-small-4-119b-2603",
+      "name": "mistral-small-4-119b-2603",
+      "description": "Hybrid MoE model unifying instruct, reasoning, and coding with multimodal input and 256k context",
+      "context_length": 131072
     },
     {
       "id": "mistralai/mixtral-8x7b-instruct-v0.1",
-      "publisher": "Mistral AI",
       "name": "mixtral-8x7b-instruct-v0.1",
       "description": "An MOE LLM that follows instructions, completes requests, and generates creative text.",
-      "downloadable": true,
-      "tag": "B200"
+      "context_length": 32768
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-30b-a3b",
+      "name": "nemotron-3-nano-30b-a3b",
+      "description": "Open, efficient MoE model with 1M context, excelling in coding, reasoning, instruction following, tool calling, and more",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+      "name": "nemotron-3-nano-omni-30b-a3b-reasoning",
+      "description": "Nemotron 3 Nano Omni is an omni-modal reasoning model that understands images, video, speech, text.",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/nemotron-3-super-120b-a12b",
+      "name": "nemotron-3-super-120b-a12b",
+      "description": "Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "nemotron-3-ultra-550b-a55b",
+      "description": "Open, efficient hybrid Mamba-Transformer MoE with 1M context, excelling in agentic reasoning, coding, planning, tool calling, and more",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/nemotron-mini-4b-instruct",
+      "name": "nemotron-mini-4b-instruct",
+      "description": "Optimized SLM for on-device inference and fine-tuned for roleplay, RAG and function calling",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/nemotron-nano-12b-v2-vl",
+      "name": "nemotron-nano-12b-v2-vl",
+      "description": "Nemotron Nano 12B v2 VL enables multi-image and video understanding, along with visual Q&A and summarization capabilities.",
+      "context_length": 131072
+    },
+    {
+      "id": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "name": "nvidia-nemotron-nano-9b-v2",
+      "description": "High‑efficiency LLM with hybrid Transformer‑Mamba design, excelling in reasoning and agentic tasks.",
+      "context_length": 131072
+    },
+    {
+      "id": "microsoft/phi-4-mini-instruct",
+      "name": "phi-4-mini-instruct",
+      "description": "Lightweight multilingual LLM powering AI applications in latency bound, memory/compute constrained environments",
+      "context_length": 131072
+    },
+    {
+      "id": "microsoft/phi-4-multimodal-instruct",
+      "name": "phi-4-multimodal-instruct",
+      "description": "Cutting-edge open multimodal model exceling in high-quality reasoning from image and audio inputs.",
+      "context_length": 131072
+    },
+    {
+      "id": "qwen/qwen3-coder-480b-a35b-instruct",
+      "name": "qwen3-coder-480b-a35b-instruct",
+      "description": "Excels in agentic coding and browser use and supports 256K context, delivering top results.",
+      "context_length": 131072
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "qwen3-next-80b-a3b-instruct",
+      "description": "Qwen3-Next Instruct blends hybrid attention, sparse MoE, and stability boosts for ultra-long context AI.",
+      "context_length": 131072
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "qwen3.5-397b-a17b",
+      "description": "Next-gen Qwen 3.5 VLM (400B MoE) brings advanced vision, chat, RAG, and agentic capabilities.",
+      "context_length": 131072
+    },
+    {
+      "id": "sarvamai/sarvam-m",
+      "name": "sarvam-m",
+      "description": "Multilingual, hybrid-reasoning model optimized for Indian language tasks, programming, mathematical reasoning capabilities.",
+      "context_length": 32768
+    },
+    {
+      "id": "bytedance/seed-oss-36b-instruct",
+      "name": "seed-oss-36b-instruct",
+      "description": "ByteDance open-source LLM with long-context, reasoning, and agentic intelligence.",
+      "context_length": 131072
+    },
+    {
+      "id": "upstage/solar-10.7b-instruct",
+      "name": "solar-10.7b-instruct",
+      "description": "Excels in NLP tasks, particularly in instruction-following, reasoning, and mathematics.",
+      "context_length": 4096
+    },
+    {
+      "id": "stepfun-ai/step-3.5-flash",
+      "name": "step-3.5-flash",
+      "description": "200B open-source reasoning engine with sparse MoE powering frontier agentic AI.",
+      "context_length": 65536
+    },
+    {
+      "id": "stepfun-ai/step-3.7-flash",
+      "name": "step-3.7-flash",
+      "description": "A sparse MoE multimodal reasoning model good for enterprise, agentic and coding tasks.",
+      "context_length": 65536
+    },
+    {
+      "id": "stockmark/stockmark-2-100b-instruct",
+      "name": "stockmark-2-100b-instruct",
+      "description": "Japanese-specialized large-language-model for enterprises to read and understand complex business documents.",
+      "context_length": 131072
     }
   ]
 }
