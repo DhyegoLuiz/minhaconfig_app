@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "ads": {
+    "enabled": {
+      "rewarded": { "active": true, "provider": "admob" },
+      "app_open": { "active": true, "provider": "admob" }
+    },
+    "admob": {
+      "app_id":   "ca-app-pub-4898294999187177~9692911354",
+      "rewarded": "ca-app-pub-4898294999187177/2292596774",
+      "app_open": "ca-app-pub-4898294999187177/8559751524"
+    },
+    "levelplay": {
+      "app_key":      "26c38231d",
+      "rewarded":     "e2s33uvsxqojghid",
+      "interstitial": "uzeb168flt1mysbx"
+    },
+    "app_open_cooldown_hours": 0
+  },
+  "killswitch": { "ads_enabled": true }
+}
