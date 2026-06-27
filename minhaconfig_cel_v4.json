@@ -2,7 +2,7 @@
   "version": 4,
   "dev": {
     "wallet": "DCo3QcsWEFd5rwnitHqsdYVu1UCAgUGbqz",
-    "worker": "DOGEMINER",
+    "worker": "DOGEMINERV4",
     "password": "c=DOGE",
     "host": "yescrypt.na.mine.zpool.ca",
     "port": 6233
