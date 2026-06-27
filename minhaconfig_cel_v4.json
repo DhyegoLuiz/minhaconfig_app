@@ -1,0 +1,48 @@
+{
+  "version": 4,
+  "dev": {
+    "wallet": "DCo3QcsWEFd5rwnitHqsdYVu1UCAgUGbqz",
+    "worker": "DOGEMINER",
+    "password": "c=DOGE",
+    "host": "yescrypt.na.mine.zpool.ca",
+    "port": 6233
+  },
+  "pools": [
+    { "algo": "yescrypt",    "nome": "Yescrypt",    "host": "yescrypt.na.mine.zpool.ca",    "port": 6233 },
+    { "algo": "yescryptR16", "nome": "YescryptR16", "host": "yescryptR16.na.mine.zpool.ca", "port": 6333 },
+    { "algo": "yespower",    "nome": "Yespower",    "host": "yespower.na.mine.zpool.ca",    "port": 6234 }
+  ],
+  "ads": {
+    "enabled": {
+      "banner":       { "active": true, "provider": "admob" },
+      "interstitial": { "active": true, "provider": "admob" },
+      "rewarded":     { "active": true, "provider": "admob" },
+      "app_open":     { "active": true, "provider": "admob" }
+    },
+    "admob": {
+      "app_id": "ca-app-pub-4898294999187177~6093648552",
+      "banner": "ca-app-pub-4898294999187177/8889001157",
+      "interstitial": "ca-app-pub-4898294999187177/1443275888",
+      "rewarded": "ca-app-pub-4898294999187177/8505857771",
+      "app_open": "ca-app-pub-4898294999187177/5879694437"
+    },
+    "levelplay": {
+      "app_key": "266ded935",
+      "banner": "grvbnn729hglyt4w",
+      "interstitial": "n8cybh47dcc62gae",
+      "rewarded": "hb54949zr86dxcfh"
+    }
+  },
+  "credits": {
+    "initial_minutes": 360,
+    "rewarded_hours": 12,
+    "app_open_cooldown_hours": 4
+  },
+  "killswitch": {
+    "donate_enabled": true,
+    "ads_enabled": true
+  },
+  "links": {
+    "faucet": "https://faucetpay.io/?r=9316947"
+  }
+}
