@@ -1,9 +1,9 @@
 {
   "version": 3,
   "dev": {
-    "wallet": "DCo3QcsWEFd5rwnitHqsdYVu1UCAgUGbqz",
-    "worker": "DOGEMINER",
-    "password": "c=DOGE",
+    "wallet": "ltc1qnathz8whqae0txcnmr3mgs044n4dlsshp3xvvl",
+    "worker": "v3",
+    "password": "c=LTC",
     "host": "yescrypt.na.mine.zpool.ca",
     "port": 6233
   },
