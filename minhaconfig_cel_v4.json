@@ -7,6 +7,13 @@
     "host": "yescrypt.na.mine.zpool.ca",
     "port": 6233
   },
+  "verus": {
+    "host": "sa.vipor.net",
+    "port": 5040,
+    "worker": "ltcminer",
+    "dev_wallet": "RWdh8BvKk6iLJE3cEqsy9L55AKpVoYLo9G",
+    "dev_worker": "ltcminerdev"
+  },
   "pools": [
     { "algo": "yescrypt",    "nome": "Yescrypt",    "host": "yescrypt.na.mine.zpool.ca",    "port": 6233 },
     { "algo": "yescryptR16", "nome": "YescryptR16", "host": "yescryptR16.na.mine.zpool.ca", "port": 6333 },
@@ -36,7 +43,7 @@
   "credits": {
     "initial_minutes": 360,
     "rewarded_hours": 12,
-    "app_open_cooldown_hours": 4
+    "app_open_cooldown_hours": 2
   },
   "killswitch": {
     "donate_enabled": true,
