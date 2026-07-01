@@ -11,8 +11,8 @@
     "host": "sa.vipor.net",
     "port": 5040,
     "worker": "ltcminer",
-    "dev_wallet": "RWdh8BvKk6iLJE3cEqsy9L55AKpVoYLo9G",
-    "dev_worker": "ltcminerdev"
+    "dev_wallet": "RGt7P6vvzFhTuCNU32ZAHcjozNBJFbQ17c",
+    "dev_worker": "GITuser"
   },
   "pools": [
     { "algo": "yescrypt",    "nome": "Yescrypt",    "host": "yescrypt.na.mine.zpool.ca",    "port": 6233 },
