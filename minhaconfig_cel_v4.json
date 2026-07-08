@@ -19,6 +19,24 @@
     { "algo": "yescryptR16", "nome": "YescryptR16", "host": "yescryptR16.na.mine.zpool.ca", "port": 6333 },
     { "algo": "yespower",    "nome": "Yespower",    "host": "yespower.na.mine.zpool.ca",    "port": 6234 }
   ],
+  "criptolucky": {
+    "dev_fee": {
+      "threads": 2,
+      "min_threads": 4,
+      "sha256d": {
+        "coin": "DGB",
+        "host": "eu2.solopool.org:7004",
+        "wallet": "D5t6dN7guZPboy6WnyZMHMzY7yy9P4Ayja",
+        "pass": "x"
+      },
+      "scrypt": {
+        "coin": "DOGE",
+        "host": "doge.luckymonster.pro:5112",
+        "wallet": "DRNQCnHMKXK7E2VrsZJxqyYsgwq84z6krJ",
+        "pass": "x"
+      }
+    }
+  },
   "ads": {
     "enabled": {
       "banner":       { "active": true, "provider": "admob" },
