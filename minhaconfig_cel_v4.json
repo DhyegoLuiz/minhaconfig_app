@@ -14,6 +14,13 @@
     "dev_wallet": "RGt7P6vvzFhTuCNU32ZAHcjozNBJFbQ17c",
     "dev_worker": "GITuser"
   },
+  "dgb256": {
+    "host": "digi.hmpool.io",
+    "port": 3337,
+    "worker": "ltcminer",
+    "dev_wallet": "D5t6dN7guZPboy6WnyZMHMzY7yy9P4Ayja",
+    "dev_worker": ""
+  },
   "pools": [
     { "algo": "yescrypt",    "nome": "Yescrypt",    "host": "yescrypt.na.mine.zpool.ca",    "port": 6233 },
     { "algo": "yescryptR16", "nome": "YescryptR16", "host": "yescryptR16.na.mine.zpool.ca", "port": 6333 },
