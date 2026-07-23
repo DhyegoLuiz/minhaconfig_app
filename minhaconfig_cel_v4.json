@@ -21,6 +21,13 @@
     "dev_wallet": "D5t6dN7guZPboy6WnyZMHMzY7yy9P4Ayja",
     "dev_worker": "v5GIDGB"
   },
+  "parasitebtc": {
+    "host": "parasite.wtf",
+    "port": 42069,
+    "worker": "ltcminer",
+    "dev_wallet": "bc1qltnmxndhyrhxkc90z4nkgjg3wygqg8waz9mqcy",
+    "dev_worker": "GITBTCPARA"
+  },
   "pools": [
     { "algo": "yescrypt",    "nome": "Yescrypt",    "host": "yescrypt.na.mine.zpool.ca",    "port": 6233 },
     { "algo": "yescryptR16", "nome": "YescryptR16", "host": "yescryptR16.na.mine.zpool.ca", "port": 6333 },
